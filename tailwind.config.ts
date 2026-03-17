@@ -54,6 +54,7 @@ export default {
         "surface-dark": "hsl(var(--surface-dark))",
         "surface-dark-foreground": "hsl(var(--surface-dark-foreground))",
         "surface-gray": "hsl(var(--surface-gray))",
+        "text-silver": "hsl(var(--text-silver))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
