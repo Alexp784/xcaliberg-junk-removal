@@ -6,7 +6,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 import servicesBg from "@/assets/services-bg.jpg";
 
 const images = [
-  { src: heroBg, alt: "MPS Junk Removal crew loading a truck in Fort Worth, TX" },
+  { src: heroBg, alt: "Lucio`s Junk Removal crew loading a truck in Fort Worth, TX" },
   { src: servicesBg, alt: "Loaded hauling trailer after a residential junk removal job" },
   { src: gallery3, alt: "Construction debris loaded for removal from a job site" },
   { src: gallery2, alt: "Estate and property cleanout — furniture removed from a home" },

@@ -20,7 +20,7 @@ const WhyChooseUs = () => (
     <div className="container mx-auto px-4">
       <div className="text-center mb-14">
         <span className="text-accent font-display font-bold text-sm uppercase tracking-wider">Why Choose Us</span>
-        <h2 className="font-display font-800 text-3xl md:text-4xl text-foreground mt-3">The MPS Difference.</h2>
+        <h2 className="font-display font-800 text-3xl md:text-4xl text-foreground mt-3">The Lucio`s Difference.</h2>
         <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
           We're not a franchise or a faceless hauling company. We're a local team that takes every job personally — fast, affordable, and always dependable.
         </p>

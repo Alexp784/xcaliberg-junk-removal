@@ -53,7 +53,7 @@ const ServiceArea = () => (
             Get a Free Quote
           </a>
           <a href="tel:8179958813" className="border-2 border-surface-dark-foreground/30 text-surface-dark-foreground font-display font-bold uppercase text-sm px-6 py-3 rounded hover:border-accent hover:text-accent transition-all">
-            (817) 995-8813
+            210-262-1020
           </a>
         </div>
       </div>
