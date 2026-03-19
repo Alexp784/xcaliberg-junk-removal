@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import ServiceArea from "@/components/ServiceArea";
 import GallerySection from "@/components/GallerySection";
 import Footer from "@/components/Footer";
+import ContactUs from "@/components/Contactus";
 
 const Index = () => (
   <>
@@ -16,6 +17,7 @@ const Index = () => (
     <WhyChooseUs />
     <ServiceArea />
     <GallerySection />
+    <ContactUs />
     <Footer />
   </>
 );
