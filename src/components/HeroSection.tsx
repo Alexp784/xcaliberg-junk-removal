@@ -46,7 +46,7 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 bg-accent text-accent-foreground font-display font-bold uppercase px-6 py-3 rounded hover:brightness-110 transition-all text-sm"
             >
               <Phone className="w-4 h-4" />
-              Call 210-262-1020
+              Call 740-357-5167
             </a>
             <a
               href="sms:8179958813"

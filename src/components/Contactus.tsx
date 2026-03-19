@@ -80,8 +80,8 @@ const ContactUs = () => {
             <h3 className="font-display font-bold text-2xl text-foreground mb-3">Book a Pickup</h3>
             <p className="text-muted-foreground mb-5">Fill out the form and we’ll call or text to confirm your appointment.</p>
             <div className="space-y-3 text-sm text-foreground">
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-accent" /> 210-262-1020</div>
-              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-accent" /> lucio@luciojunkremoval.com</div>
+              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-accent" /> 740-357-5167</div>
+              
               <div className="rounded-lg bg-surface-dark/10 p-3 text-xs text-muted-foreground">Operating hours: Mon-Sat 8am-7pm</div>
             </div>
           </div>

@@ -78,7 +78,7 @@ const QuoteForm = () => {
         </button>
 
         <a href="tel:8179958813" className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors">
-          Prefer to talk? <Phone className="w-3.5 h-3.5 text-accent" /> <span className="text-accent font-bold">210-262-1020</span>
+          Prefer to talk? <Phone className="w-3.5 h-3.5 text-accent" /> <span className="text-accent font-bold">740-357-5167</span>
         </a>
 
         <p className="text-xs text-muted-foreground text-center">
