@@ -33,16 +33,7 @@ const ContactQuoteForm = () => {
           />
         </label>
       </div>
-      <label className="text-xs font-display font-bold uppercase text-muted-foreground block">
-        {content.emailLabel}
-        <input
-          type="email"
-          required
-          value={formData.email}
-          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-          className="mt-1 w-full rounded-lg border border-input px-3 py-2 text-sm focus:ring-2 focus:ring-accent"
-        />
-      </label>
+      <div className="text-sm text-muted-foreground">We do not require email. Please call or text 727-495-4052 with photos for a free quote.</div>
       <label className="text-xs font-display font-bold uppercase text-muted-foreground block">
         {content.detailsLabel}
         <textarea

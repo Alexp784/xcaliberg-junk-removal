@@ -3,15 +3,12 @@ import { Phone, ArrowRight } from "lucide-react";
 import { content } from "@/lib/content";
 
 const QuoteForm = () => {
-  const [formData, setFormData] = useState({ name: "", phone: "", email: "", details: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "", details: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Free Quote Request");
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nDetails: ${formData.details}`
-    );
-    window.location.href = `mailto:randallsjunkremovalllc@gmail.com?subject=${subject}&body=${body}`;
+    alert("Thank you! Please call or text 727-495-4052 with photos for a free estimate. We do not use email for bookings.");
+    window.location.href = "tel:7274954052";
   };
 
   return (
@@ -48,16 +45,7 @@ const QuoteForm = () => {
           </div>
         </div>
 
-        <div>
-          <label className="block text-xs font-display font-bold uppercase tracking-wider text-muted-foreground mb-1.5">Email</label>
-          <input
-            type="email"
-            placeholder="your@email.com"
-            className="w-full px-3 py-2.5 rounded border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent"
-            value={formData.email}
-            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-          />
-        </div>
+        <div className="text-sm text-muted-foreground">No email needed — call or text 727-495-4052 with photos for a free quote.</div>
 
         <div>
           <label className="block text-xs font-display font-bold uppercase tracking-wider text-muted-foreground mb-1.5">Details</label>
