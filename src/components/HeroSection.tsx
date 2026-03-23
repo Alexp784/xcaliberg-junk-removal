@@ -1,5 +1,5 @@
 import { Phone, MessageSquare } from "lucide-react";
-import heroBg from "@/assets/image_2026-03-23_13-44-55.png";
+import heroBg from "@/assets/image_2026-03-23_14-11-26.png";
 import QuoteForm from "./QuoteForm";
 import { content } from "@/lib/content";
 

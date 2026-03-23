@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-  base:"/JB-Junk-Removal/",
+  base:"/xcaliberg-junk-removal/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

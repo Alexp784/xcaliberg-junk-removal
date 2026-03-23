@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import mpsLogo from "@/assets/image_2026-03-23_13-44-55.png";
+import mpsLogo from "@/assets/image_2026-03-23_14-11-26.png";
 import { content } from "@/lib/content";
 
 const StickyHeader = () => {
