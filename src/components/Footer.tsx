@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid md:grid-cols-3 gap-12">
         <div>
-          <img src={mpsLogo} alt="JB Junk Removal" className="h-16 w-auto mb-4" />
+          <img src={mpsLogo} alt="XCaliber Hauling & Junk Removal" className="h-16 w-auto mb-4" />
           <p className="text-accent font-display font-bold text-lg leading-tight mb-1">{content.brandName}</p>
           <p className="text-surface-dark-foreground/60 text-sm leading-relaxed">{content.brandTagline}</p>
         </div>
@@ -26,12 +26,12 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-bold text-surface-dark-foreground text-sm uppercase tracking-wider mb-4">{content.navContact}</h4>
           <div className="flex flex-col gap-3">
-            <a href="tel:8179958813" className="flex items-center gap-2 text-accent font-bold text-sm">
+            <a href="tel:7274954052" className="flex items-center gap-2 text-accent font-bold text-sm">
               <Phone className="w-4 h-4" /> {content.phoneNumber}
             </a>
-            <a href="mailto:randallsjunkremovalllc@gmail.com" className="flex items-center gap-2 text-surface-dark-foreground/60 hover:text-accent transition-colors text-sm">
-              <Mail className="w-4 h-4" /> randallsjunkremovalllc@gmail.com
-            </a>
+            <span className="flex items-center gap-2 text-surface-dark-foreground/60 text-sm">
+              <Mail className="w-4 h-4" /> No email provided
+            </span>
           </div>
         </div>
       </div>

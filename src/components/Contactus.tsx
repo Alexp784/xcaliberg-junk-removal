@@ -3,15 +3,12 @@ import { useState } from "react";
 import { content } from "@/lib/content";
 
 const ContactQuoteForm = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", phone: "", details: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "", details: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Contact Request");
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nDetails: ${formData.details}`
-    );
-    window.location.href = `mailto:randallsjunkremovalllc@gmail.com?subject=${subject}&body=${body}`;
+    alert("Thanks for your request! Please call or text 727-495-4052 with photos for a free estimate.\nWe do not use email for booking.");
+    window.location.href = "tel:7274954052";
   };
 
   return (

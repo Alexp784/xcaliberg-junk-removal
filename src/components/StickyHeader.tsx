@@ -7,7 +7,7 @@ const StickyHeader = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-surface-dark/95 backdrop-blur-sm border-b border-surface-dark">
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="#" className="flex items-center gap-3">
-          <img src={mpsLogo} alt="Randalls Junk Removal logo" className="h-12 w-auto" />
+          <img src={mpsLogo} alt="XCaliber Hauling & Junk Removal logo" className="h-12 w-auto" />
           <div className="flex flex-col">
             <span className="font-display font-bold text-lg text-accent leading-tight">{content.brandName}</span>
             <span className="font-body text-xs text-accent-foreground">{content.brandTagline}</span>
@@ -23,7 +23,7 @@ const StickyHeader = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="tel:8179958813" className="hidden sm:flex items-center gap-2 text-accent font-display font-bold text-sm">
+          <a href="tel:7274954052" className="hidden sm:flex items-center gap-2 text-accent font-display font-bold text-sm">
             <Phone className="w-4 h-4" />
             {content.phoneNumber}
           </a>
