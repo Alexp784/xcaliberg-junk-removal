@@ -1,9 +1,10 @@
 import { MapPin, Shield, Clock } from "lucide-react";
+import { content } from "@/lib/content";
 
 const items = [
-  { icon: MapPin, label: "Locally Owned & Operated" },
-  { icon: Shield, label: "Licensed & Insured" },
-  { icon: Clock, label: "Same Day Service Available" },
+  { icon: MapPin, label: content.trustBarLocallyOwned },
+  { icon: Shield, label: content.trustBarLicensed },
+  { icon: Clock, label: content.trustBarSameDay },
 ];
 
 const TrustBar = () => (

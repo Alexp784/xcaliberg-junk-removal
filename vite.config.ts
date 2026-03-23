@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-  base:"/randalls-junk-removal/",
+  base:"/JB-Junk-Removal/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

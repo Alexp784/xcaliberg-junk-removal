@@ -4,23 +4,24 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 import servicesBg from "@/assets/services-bg.jpg";
+import { content } from "@/lib/content";
 
 const images = [
-  { src: heroBg, alt: "Lucio`s Junk Removal crew loading a truck in Fort Worth, TX" },
-  { src: servicesBg, alt: "Loaded hauling trailer after a residential junk removal job" },
-  { src: gallery3, alt: "Construction debris loaded for removal from a job site" },
-  { src: gallery2, alt: "Estate and property cleanout — furniture removed from a home" },
-  { src: gallery4, alt: "Brush and yard debris removal from a residential property" },
-  { src: gallery1, alt: "Clean driveway after professional junk removal service" },
+  { src: heroBg, alt: content.galleryAlt1 },
+  { src: servicesBg, alt: content.galleryAlt2 },
+  { src: gallery3, alt: content.galleryAlt3 },
+  { src: gallery2, alt: content.galleryAlt4 },
+  { src: gallery4, alt: content.galleryAlt5 },
+  { src: gallery1, alt: content.galleryAlt6 },
 ];
 
 const GallerySection = () => (
   <section id="gallery" className="py-20 bg-surface-gray">
     <div className="container mx-auto px-4">
       <div className="text-center mb-14">
-        <span className="text-accent font-display font-bold text-sm uppercase tracking-wider">Our Work</span>
-        <h2 className="font-display font-800 text-3xl md:text-4xl text-foreground mt-3">Recent Projects</h2>
-        <p className="text-muted-foreground mt-3">Real jobs, real results. See how we handle every job with care and professionalism.</p>
+        <span className="text-accent font-display font-bold text-sm uppercase tracking-wider">{content.gallerySectionTitle}</span>
+        <h2 className="font-display font-800 text-3xl md:text-4xl text-foreground mt-3">{content.gallerySectionSubtitle}</h2>
+        <p className="text-muted-foreground mt-3">{content.gallerySectionDescription}</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
